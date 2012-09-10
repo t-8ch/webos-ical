@@ -1,0 +1,11 @@
+{
+  "id": "de.t8ch.webosical",
+  "package_format_version": 2,
+  "loc_name": "Synergy ical provider",
+  "version": "0.0.1",
+  "vendor": "Thomas Weißschuh",
+  "vendorurl": "github.com/t-8ch/webosical",
+  "app": "de.t8ch.webosical",
+  "services": ["de.t8ch.webosical.service"],
+  "accounts": ["de.t8ch.webosical.account"]
+}

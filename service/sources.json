@@ -1,0 +1,50 @@
+[
+{
+	"library": {
+		"name": "calendar",
+		"version": "1.0"
+	}
+},
+{
+	"library": {
+		"name": "calendar.io",
+		"version": "1.0"
+	}
+},
+{
+	"library": {
+		"name": "foundations",
+		"version": "1.0"
+	}
+},
+{
+	"library": {
+		"name": "foundations.json",
+		"version": "1.0"
+	}
+},
+{
+	"library": {
+		"name": "foundations.xml",
+		"version": "1.0"
+	}
+},
+{
+	"library": {
+		"name": "underscore",
+		"version": "1.0"
+	}
+},
+{
+	"source":"prologue.js"
+},
+{
+	"source":"serviceEndPoints.js"
+},
+{
+	"source":"ical.js"
+},
+{
+	"source":"convert.js"
+}
+]

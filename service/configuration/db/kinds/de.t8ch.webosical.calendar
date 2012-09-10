@@ -1,0 +1,25 @@
+{
+    "id": "de.t8ch.webosical.calendar:1",
+    "extends": ["com.palm.calendar:1"],
+    "indexes": [
+    {
+        "name": "accountId",
+        "props": [{
+            "name": "accountId"
+        }]
+    },
+    {
+        "name": "accountId_remoteId",
+        "props": [{
+            "name": "accountId"
+        }, {
+            "name": "remoteId"
+        }]
+    },
+    {
+       "name": "nextDate",
+       "props": [{
+           "name": "nextDate"
+       }]
+    }]
+}

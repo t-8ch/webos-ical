@@ -1,0 +1,50 @@
+{
+   "id":"de.t8ch.webosical.service",
+   "description":"Test Contact Service",
+   "engine":"node",
+   "activityTimeout":30,
+   "services":[
+      {
+         "name":"de.t8ch.webosical.service",
+         "description":"Test Calendar",
+         "globalized":false,
+         "commands":[
+            {
+               "name":"checkCredentials",
+               "assistant":"checkCredentialsAssistant",
+               "public":true
+            },
+            {
+               "name":"onCapabiltiesChanged",
+               "assistant":"onCapabiltiesChangedAssistant",
+               "public":true
+            },
+            {
+               "name":"onCredentialsChanged",
+               "assistant":"onCredentialsChangedAssistant",
+               "public":true
+            },
+            {
+               "name":"onCreate",
+               "assistant":"onCreateAssistant",
+               "public":true
+            },
+            {
+               "name":"onEnabled",
+               "assistant":"onEnabledAssistant",
+               "public":true
+            },
+            {
+               "name":"onDelete",
+               "assistant":"onDeleteAssistant",
+               "public":true
+            },
+            {
+               "name":"sync",
+               "assistant":"syncAssistant",
+               "public":true
+            }
+         ]
+      }
+   ]
+}

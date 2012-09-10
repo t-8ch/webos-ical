@@ -1,0 +1,52 @@
+{
+    "id": "de.t8ch.webosical.calendarevent:1",
+    "indexes": [{
+        "name": "calendarId",
+        "props": [{
+            "name": "calendarId"
+        },
+        {
+            "name": "_rev"
+        }]
+    },
+	{
+        "name": "accountId",
+        "props": [{
+            "name": "accountId"
+        }]
+    },
+	{
+        "name": "accountId_rev_incDel",
+        "props": [{
+            "name": "accountId"
+        },
+		{
+            "name": "_rev"
+        }],
+        "incDel": true
+    },
+	{
+		"name": "accountId_incDel",
+		"props": [{
+			"name": "accountId"
+		}],
+		"incDel": true
+	},
+	{
+		"name": "uid_accountId",
+		"props": [{
+			"name": "uid"
+		},{
+			"name": "accountId"
+		}]
+    },
+	{
+		"name": "accountId_remoteId",
+		"props": [{
+			"name": "accountId"
+		}, {
+			"name": "remoteId"
+		}]
+	}],
+    "extends": ["com.palm.calendarevent:1"]
+}

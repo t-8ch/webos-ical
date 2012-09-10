@@ -1,0 +1,13 @@
+[
+	{
+		"type": "db.kind",
+		"object": "de.t8ch.webosical.account:1",
+		"caller": "de.t8ch.webosical.service",
+		"operations": {
+			"read": "allow",
+			"create": "allow",
+			"delete": "allow",
+			"update": "allow"
+		}
+	}
+]

@@ -1,0 +1,9 @@
+{
+    "id": "de.t8ch.webosical.account:1",
+    "owner": "de.t8ch.webosical.service",
+    "sync": true,
+    "indexes": [{ 
+       "name": "accountId", 
+       "props": [{ "name": "accountId"}]}], 
+    "extends": ["com.palm.calendar:1"]
+}

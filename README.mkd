@@ -1,0 +1,12 @@
+# TODO
+
+* scheduling
+    * schedule future sync
+    * sync calendar based on cache header
+    * use last-modified-since / etag
+* errorhandling
+    * fix onenabled (delete events)
+    * follow http redirection
+    * better error on invalid url
+* events
+    * timezone

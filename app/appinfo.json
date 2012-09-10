@@ -1,0 +1,9 @@
+{
+    "id": "de.t8ch.webosical",
+    "version": "1.0.0",
+    "vendor": "Palm, inc",
+    "type": "web",
+    "main": "index.html",
+    "title": "will be hidden after reboot",
+    "visible": false
+}

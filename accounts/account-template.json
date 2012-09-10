@@ -1,0 +1,23 @@
+
+{
+    "templateId": "de.t8ch.webosical.account",
+    "loc_name": "ical Calendar",
+    "validator": "palm://de.t8ch.webosical.service/checkCredentials",
+    "readPermissions": ["de.t8ch.webosical.service"],
+    "writePermissions": ["de.t8ch.webosical.service"],
+    "loc_usernameLabel": "email address",
+    "capabilityProviders": [{
+        "capability": "CALENDAR",
+        "id": "de.t8ch.webosical.calendar",
+        "loc_name": "ical Calendar - NEW",
+        "implementation": "palm://de.t8ch.webosical.service/",
+        "onCreate": "palm://de.t8ch.webosical.service/onCreate",
+        "onEnabled": "palm://de.t8ch.webosical.service/onEnabled",
+        "onDelete": "palm://de.t8ch.webosical.service/onDelete",
+        "sync": "palm://de.t8ch.webosical.service/sync",
+        "dbkinds": {
+            "calendar": "de.t8ch.webosical.calendar:1",
+            "calendarevent": "de.t8ch.webosical.calendarevent:1"
+        }
+    }]
+}
