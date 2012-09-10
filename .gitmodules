@@ -1,0 +1,6 @@
+[submodule "service/ical.js"]
+	path = service/ical.js
+	url = https://github.com/peterbraden/ical.js.git
+[submodule "lib/ical.js"]
+	path = lib/ical.js
+	url = https://github.com/peterbraden/ical.js.git
