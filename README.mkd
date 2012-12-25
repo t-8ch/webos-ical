@@ -1,3 +1,28 @@
+# Installation
+
+    git clone https://github.com/t-8ch/webos-ical
+    cd webos-ical
+    make package
+    make install
+
+`make install` will call palm-install, which installs to the first available
+device.
+
+If you want a prebuilt package, drop me a mail.
+
+# Configuration
+
+Create a new calendar account.
+
+* Mail address: Full URL to your remote calendar
+* Password: Doesn't matter. Has to be something.
+
+Now switch to your calendar and activate `Sync all`.
+
+#### Note:
+
+There is no automatic/periodic syncing or caching in place.
+
 # TODO
 
 * scheduling
