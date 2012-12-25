@@ -2,6 +2,8 @@
 
     git clone https://github.com/t-8ch/webos-ical
     cd webos-ical
+    git submodule init
+    git submodule update
     make package
     make install
 
